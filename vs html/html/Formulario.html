@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+   <form action="/submit-your-front-endpoint" method="post">
+    <fieldset>
+        <legend>Informações Pessoais</legend>
+
+        <label for="name">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" required> 
+
+        <label for="senha">Senha:</label>
+        <input type="text" id="senha" name="senha" required>
+    </fieldset>
+    <fieldset>
+        <legend>Genêro</legend>
+        <label><input type="radio" name="genero" value="feminino" required>Feminino</label>
+        <label><input type="radio" name="genero" value="masculino" >Masculino</label>
+        <label><input type="radio" name="genero" value="outro" >Outro</label>
+    </fieldset>
+    <fieldset>
+        <legend>Preferências</legend>
+        <label><input type="checkbox" name="interesses" value="noticias" >Noticias</label>
+        <label><input type="checkbox" name="interesses" value="esportes" >Esportes</label>
+        <label><input type="checkbox" name="interesses" value="entretenimento" >Entretenimento</label>
+    </fieldset>
+    <button type="submit">Cadastrar</button>
+   </form>
+</body>
+</html>

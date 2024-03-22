@@ -1,0 +1,29 @@
+h1.test{
+          color: crimson;
+          font-size: xx-large;
+          padding: 2cm;
+}
+p.test{
+          color: firebrick;
+          font-style: italic;
+}
+.autor{
+          color: dodgerblue;
+          font-style:oblique
+
+}
+section {
+          padding: 2mm;
+}
+li.test{
+          list-style-type: none;
+}
+.espacamento.test{
+          font-size:1em; line: height 1.5em; 
+}
+h2.test{
+          color: rgb(252, 170, 252);
+          font-size: medium;
+          padding-left: 2cm;
+          
+}
